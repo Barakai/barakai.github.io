@@ -1,0 +1,46 @@
+
+body{
+    background-color: gainsboro;
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    width: 800px;
+    height: 340px;
+    
+}
+textarea{
+    width: 80%;
+    height: 100px;
+    border: 3px dashed;
+    border-color:gray;
+    padding: 20px;
+    
+}
+#generate{
+    
+    width: 30%;
+    padding:20px;
+    border-radius: 50px;
+    background-color: red;
+    color:white;
+    margin-left: -100px;
+    
+}
+#copy{
+
+    width: 30%;
+    float:right;
+    padding: 20px ;
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+    margin-right: 80px;
+    
+
+    
+}
