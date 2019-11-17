@@ -2,25 +2,47 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>My contact</title>
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-     <div class="container">
-      <div class="content">
-        <h2>Baraka Ibrahim</h2>
-        <h2>Contact</h2>
-        <form>
-        <label>Name</label></br>
-        <input type="text" name= "name"><br/></br>
-        <label>Email</label></br>
-        <input type="email" name= "email"><br/></br>
-        <label>Message</label></br>
-        <textarea name="Message"></textarea><br/>
-        <button>Submit</button>
-      </form>
+     <header id="main-header">
+       <div class="container">
+        <a href="index.html" id="logo">Baraka Ibrahim</a>
+        <nav>
+          <a href="index.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
       </div>
+     </header>
+     <div id="main-content" class="container">
+        <section class="main-section">
+        <h1>Contact</h1>
+        <form id="contact-form">
+          <ul>
+            <li>
+             <label for="name">Name</label>
+             <input type="text" name= "name" id="name" placeholder="enter your name" required = "required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="text" name= "email" id="email" placeholder="enter your email" required = "required">
+            </li> 
+            <li>
+              <label for="message">Message</label>
+              <textarea name="Message" id="message" required = "required"></textarea>
+            </li>
+          </ul>
+          <input type="submit" name="submit">
+        </form>
+        </section>
      </div>
-    <footer class="footer">copyright@</footer>
+     <footer>
+        <div class="container">
+          &copy;copyright 2019 Baraka
+        </div>
+      </footer>
     </body>
 </html>
