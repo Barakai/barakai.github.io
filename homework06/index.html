@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Toady Weather</title>
-</head>
-<body>
-    <div class="jumbotron ">
-        <h2>Weather Dashboard</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Search  by City Names</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-sm bg-light navbar-light justify-content-center"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Weather Forecast</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2"
+          type="text"
+          placeholder="Search"
+          id="search"
+        />
+        <button class="btn btn-success mr-sm-2" type="submit" id="submitBtn">
+          Search
+        </button>
+        <button class="btn btn-secondary" id="clearSearchHistory">
+          Clear Search History
+        </button>
+      </form>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 blueColor"></div>
+        <div class="col-md-10 lightBlueColor"></div>
+      </div>
     </div>
-    <!-- br -->
-    <div class="container">
-        <div class="row">
-            <h4>Search for a City:</h4>
-            <!--<span id="error"></span>-->
-        </div>
-        <div class="row form-group form-inline">
-            <div class="col-lg-4">
-            <input type="text" name="city" id="city" class="form-control">
-            <button id="submitBtn" class="btn btn-primary"><i class="fa fa-search"></i>Search</button>
-            </div>
-            <div class="col-lg-8" id="display"></div>
-        </div>
-        <div class="row">
-            <div class=""></div>   
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

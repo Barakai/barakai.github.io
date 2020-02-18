@@ -1,7 +1,33 @@
-.jumbotron{
-    text-align: center;
-    background-color:rgb(115, 115, 170);
-}
-.container{
-    background-color: rgba(202, 15, 15, 0);
-}
+.blueColor {
+    background-color:rgb(130, 72, 223);
+  }
+  .lightBlueColor {
+    background-color: lightblue;
+  }
+  
+  .citySpan {
+    margin: 0px 20px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  
+  .tempSpan,
+  .dateSpan,
+  .humiditySpan,
+  .windSpeedSpan,
+  .uvIndexSpan {
+    margin: 0px 20px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  .forecastDiv {
+    background-color: skyblue
+  }
+  
+  .fcDateSpan,
+  .fcTempSpan,
+  .fcHumiditySpan,
+  .fcWeatherIcon {
+    margin: 5px;
+  }
