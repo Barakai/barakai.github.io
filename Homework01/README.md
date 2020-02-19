@@ -4,16 +4,16 @@ This is my first portfolio page. it includes contact , portfolio and about me pa
 
 **Links to the pages**
 
-[About](index.html)
+[About](https://barakai.github.io/Homework01/index.html)
 
-[Portfolio](portfolio.html)
+[Portfolio](https://barakai.github.io/Homework01/portfolio.html)
 
-[Contact](contact.html)
+[Contact](https://barakai.github.io/Homework01/contact.html)
 
 **Screenshots**
 
-![](./img/screenshot1.png)
+![alt](https://github.com/Barakai/barakai.github.io/blob/master/Homework01/img/Screenshot1.png)
 
-![](./img/screenshot2.png)
+![alt](https://github.com/Barakai/barakai.github.io/blob/master/Homework01/img/Screenshot2.png)
 
-![](./img/screenshot3.png)
+![alt](https://github.com/Barakai/barakai.github.io/blob/master/Homework01/img/Screenshot3.png)
