@@ -2,12 +2,18 @@
 
 This is my first portfolio page. it includes contact , portfolio and about me pages.
 
-**Links to the pages**[About](index.html)
+**Links to the pages**
+
+[About](index.html)
+
 [Portfolio](portfolio.html)
+
 [Contact](contact.html)
 
 **Screenshots**
 
-![](./images/screenshot1.png)
-![](./images/screenshot2.png)
-![](./images/screenshot3.png)
+![](./img/screenshot1.png)
+
+![](./img/screenshot2.png)
+
+![](./img/screenshot3.png)
