@@ -1,13 +1,16 @@
-# barakai.github.io
+**Weather Dashboard**
 
-#Weather Dashboard
-Description
+
+**Description**
+
+
 This weather dashboard application is used to retrieve weather data from OpenWeather API based on a search of a specific city.
 
 Link to Application can be found [here](https://barakai.github.io/homework06/)
 
-Features
-This application was created using HTML, CSS, and JavaScript. The following are rendered when a city is searched: city, date, icon image, temperature, humidity, wind speed, and UV index.
+**Features**
+
+This application was created using HTML, CSS, API and JavaScript . The following are rendered when a city is searched: city, date, icon image, temperature, humidity, wind speed, and UV index.
 
 The application will also display a 5-day forecast that includes the date, icon image, temperature and humidity.
 
