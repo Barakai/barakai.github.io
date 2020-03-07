@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Password Generator</title>
-    <link rel="stylesheet" type="text/css"href="style.css">
-  </head>
-  <body>
+<html>
+<head>
+    <title>
+        Password Generator
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/javascript" href="password.js"> -->
+</head>
+<body>
     <header>
-      <h1>Password Generator</h1>
+        <h1 class="display-4">Password Generator</h1>
     </header>
-    <div class="container">
-      <h2>Generate a Password</h2>
-      <textarea
-        readonly
-        id="password"
-        placeholder="Your Secure Password"
-        aria-label="Generated Password"
-      ></textarea>
-      <button id="generate">Generate Password</button>
-      <button id="copy">
-        Copy to Clipboard
-      </button>
-    </div>
-    <script src="script.js"></script>
-  </body>
+    <div class = "container">
+        <div class="jumbotron">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Generate a Password</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Secure Password"></textarea> 
+                </div>
+                <button type="button" id = "button" class="btn btn-success">Generate Password</button>
+                <button type="button" id = "button2" class="btn btn-secondary">Copy to Clipboard</button>
+            </form>
+        </div>    
+    </div>           
+</body>
+<script src="generate.js"></script>
 </html>
