@@ -1,0 +1,21 @@
+{
+  "name": "homework9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "electron": "^7.1.1",
+    "electron-html-to": "^2.6.0",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.4",
+    "open": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Baraka",
+  "license": "ISC"
+}
